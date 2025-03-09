@@ -3,7 +3,7 @@
   "displayName": "Best VSCode Theme",
   "description": "A meticulously crafted theme that combines aesthetic beauty with optimal readability. Perfect for long coding sessions with enhanced semantic highlighting.",
   "version": "1.0.0",
-  "publisher": "best-vscode-theme",
+  "publisher": "bestvscodetheme",
   "engines": {
     "vscode": "^1.60.0"
   },

@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="assets/logo.svg" width="100" height="100" alt="Best VSCode Theme Logo">
+  <img src="assets/logo.png" width="100" height="100" alt="Best VSCode Theme Logo">
 </p>
 
 <h1 align="center">
-  <img src="assets/logo-text.svg" width="300" alt="Best VSCode Theme">
+  <img src="assets/logo-text.png" width="300" alt="Best VSCode Theme">
 </h1>
 
 <p align="center">
