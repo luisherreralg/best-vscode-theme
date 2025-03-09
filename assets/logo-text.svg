@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="200" viewBox="0 0 1200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3deefc"/>
+      <stop offset="50%" style="stop-color:#fc85ff"/>
+      <stop offset="100%" style="stop-color:#7eefa9"/>
+    </linearGradient>
+    <linearGradient id="gradient2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3deefc"/>
+      <stop offset="100%" style="stop-color:#7eefa9"/>
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3deefc"/>
+      <stop offset="33%" style="stop-color:#fc85ff"/>
+      <stop offset="66%" style="stop-color:#7eefa9"/>
+      <stop offset="100%" style="stop-color:#3deefc"/>
+    </linearGradient>
+    <!-- Glow effect -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Container group for centering everything -->
+  <g transform="translate(200, 100)">
+    <!-- Logo Symbol -->
+    <g transform="translate(0, 0) scale(1.2)" filter="url(#glow)">
+      <!-- Code Brackets -->
+      <path d="M-20 -25L-40 0L-20 25" stroke="url(#gradient1)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M20 -25L40 0L20 25" stroke="url(#gradient1)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+      
+      <!-- Enhanced Center Design -->
+      <circle cx="0" cy="0" r="12" fill="url(#gradient2)">
+        <animate attributeName="r" values="12;14;12" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      
+      <!-- Decorative Elements -->
+      <line x1="-20" y1="0" x2="20" y2="0" stroke="url(#gradient2)" stroke-width="6" stroke-linecap="round" opacity="0.6">
+        <animate attributeName="opacity" values="0.6;0.9;0.6" dur="2s" repeatCount="indefinite"/>
+      </line>
+      
+      <!-- Additional Decorative Dots -->
+      <circle cx="-40" cy="-25" r="3" fill="url(#gradient1)" opacity="0.8"/>
+      <circle cx="40" cy="25" r="3" fill="url(#gradient1)" opacity="0.8"/>
+    </g>
+
+    <!-- Text - Adjusted vertical position -->
+    <text x="120" y="25" fill="url(#textGradient)" font-family="Inter, sans-serif" font-size="72" font-weight="bold" letter-spacing="-1" filter="url(#glow)">
+      Best VSCode Theme
+    </text>
+  </g>
+</svg>
