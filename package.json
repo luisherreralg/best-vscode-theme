@@ -42,7 +42,7 @@
     "url": "https://github.com/yourusername/best-vscode-theme/issues"
   },
   "homepage": "https://github.com/yourusername/best-vscode-theme#readme",
-  "icon": "assets/logo.svg",
+  "icon": "assets/logo.png",
   "galleryBanner": {
     "color": "#1a2133",
     "theme": "dark"
