@@ -36,12 +36,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/best-vscode-theme.git"
+    "url": "https://github.com/luisherreralg/best-vscode-theme.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/best-vscode-theme/issues"
+    "url": "https://github.com/luisherreralg/best-vscode-theme/issues"
   },
-  "homepage": "https://github.com/yourusername/best-vscode-theme#readme",
+  "homepage": "https://github.com/luisherreralg/best-vscode-theme#readme",
   "icon": "assets/logo.png",
   "galleryBanner": {
     "color": "#1a2133",

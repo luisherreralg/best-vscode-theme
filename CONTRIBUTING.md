@@ -8,7 +8,7 @@ Thank you for your interest in contributing to Best VSCode Theme! This document 
 
 If you find a bug or have a suggestion for improvement:
 
-1. Check if the issue already exists in the [issue tracker](https://github.com/yourusername/best-vscode-theme/issues)
+1. Check if the issue already exists in the [issue tracker](https://github.com/luisherreralg/best-vscode-theme.git/issues)
 2. If not, create a new issue with a descriptive title and detailed information:
    - For bugs: steps to reproduce, expected behavior, actual behavior, and environment details
    - For feature requests: clear description of the feature and why it would be valuable
