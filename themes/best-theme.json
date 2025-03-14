@@ -292,6 +292,38 @@
       }
     },
     {
+      "name": "PHPDoc Tags",
+      "scope": [
+        "keyword.other.phpdoc.php",
+        "meta.other.type.phpdoc.php",
+        "storage.type.class.phpdoc.php"
+      ],
+      "settings": {
+        "foreground": "#ff47f7",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "PHPDoc Types",
+      "scope": [
+        "meta.other.type.phpdoc.php",
+        "keyword.other.type.php",
+        "storage.type.php",
+        "meta.phpdoc.type.php"
+      ],
+      "settings": {
+        "foreground": "#42e8b4",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "PHPDoc Variable Names",
+      "scope": ["variable.other.phpdoc.php"],
+      "settings": {
+        "foreground": "#ff7a8f"
+      }
+    },
+    {
       "scope": [
         "constant",
         "entity.name.constant",
