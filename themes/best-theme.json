@@ -1311,8 +1311,20 @@
         "variable.other.enummember"
       ],
       "settings": {
-        "foreground": "#FF5F5F",
+        "foreground": "#ffad61",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Properties",
+      "scope": [
+        "variable.other.property",
+        "variable.other.object.property",
+        "meta.object-literal.key",
+        "support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#FF5F5F"
       }
     }
   ],
@@ -1355,10 +1367,10 @@
       "bold": true
     },
     "property": {
-      "foreground": "#FF66C4"
+      "foreground": "#FF5F5F"
     },
     "constant": {
-      "foreground": "#FF5F5F",
+      "foreground": "#ffad61",
       "bold": true
     }
   }
