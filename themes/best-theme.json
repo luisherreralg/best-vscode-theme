@@ -287,7 +287,7 @@
       "name": "Comments",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "foreground": "#7B8B9A",
+        "foreground": "#8B9FD9",
         "fontStyle": "italic"
       }
     },
@@ -1199,7 +1199,7 @@
         "variable.other.python"
       ],
       "settings": {
-        "foreground": "#F2C88C"
+        "foreground": "#FFB347"
       }
     },
     {
@@ -1211,7 +1211,7 @@
         "variable.function"
       ],
       "settings": {
-        "foreground": "#D8B4FE",
+        "foreground": "#00FFDD",
         "fontStyle": "bold"
       }
     },
@@ -1219,7 +1219,7 @@
       "name": "Strings",
       "scope": ["string", "string.quoted", "string.template"],
       "settings": {
-        "foreground": "#F9A8D4"
+        "foreground": "#FF66C4"
       }
     },
     {
@@ -1231,7 +1231,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#93C5FD",
+        "foreground": "#36F9F6",
         "fontStyle": "bold"
       }
     },
@@ -1244,7 +1244,7 @@
         "support.type"
       ],
       "settings": {
-        "foreground": "#86EFAC",
+        "foreground": "#00FF9D",
         "fontStyle": "bold"
       }
     },
@@ -1252,7 +1252,7 @@
       "name": "Constants",
       "scope": ["constant", "variable.other.constant", "support.constant"],
       "settings": {
-        "foreground": "#FCA5A5",
+        "foreground": "#FF5F5F",
         "fontStyle": "bold"
       }
     }
