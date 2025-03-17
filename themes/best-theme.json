@@ -19,19 +19,19 @@
     "diffEditor.insertedTextBackground": "#00809b33",
     "dropdown.background": "#1d1f23",
     "dropdown.border": "#181a1f",
-    "editor.background": "#1a2133",
+    "editor.background": "#1a1d2b",
     "editor.foreground": "#ffffff",
-    "editor.findMatchBackground": "#3a5280",
-    "editor.findMatchHighlightBackground": "#273a62",
-    "editor.lineHighlightBackground": "#232e46",
+    "editor.findMatchBackground": "#4a5488",
+    "editor.findMatchHighlightBackground": "#3a4466",
+    "editor.lineHighlightBackground": "#2a2e45",
     "editor.lineHighlightBorder": "#232e46",
-    "editor.selectionBackground": "#2a3c68",
-    "editor.wordHighlightBackground": "#484e5b",
-    "editor.wordHighlightStrongBackground": "#4e5569",
+    "editor.selectionBackground": "#3a4466",
+    "editor.wordHighlightBackground": "#3a4466",
+    "editor.wordHighlightStrongBackground": "#4a5488",
     "editorBracketMatch.background": "#515a6b",
     "editorBracketMatch.border": "#515a6b",
     "editorCursor.background": "#ffffffc9",
-    "editorCursor.foreground": "#3deefc",
+    "editorCursor.foreground": "#36F9F6",
     "editorError.foreground": "#e06c75",
     "editorGroup.border": "#3deefc33",
     "editorGroupHeader.tabsBackground": "#141b2c",
@@ -41,9 +41,9 @@
     "editorGutter.modifiedBackground": "#e2c08d",
     "editorHoverWidget.background": "#1d2944",
     "editorHoverWidget.border": "#2d3e5e",
-    "editorIndentGuide.activeBackground": "#3b4048",
-    "editorIndentGuide.background": "#3b4048",
-    "editorLineNumber.activeForeground": "#8cc1ff",
+    "editorIndentGuide.activeBackground": "#3a4466",
+    "editorIndentGuide.background": "#2a2e45",
+    "editorLineNumber.activeForeground": "#36F9F6",
     "editorLineNumber.foreground": "#4e6bb3",
     "editorMarkerNavigation.background": "#21252b",
     "editorRuler.foreground": "#3b4048",
@@ -96,18 +96,18 @@
     "scrollbarSlider.activeBackground": "#747d9180",
     "scrollbarSlider.background": "#4e566680",
     "scrollbarSlider.hoverBackground": "#5a637580",
-    "sideBar.background": "#141b2c",
-    "sideBar.foreground": "#d7dae0",
+    "sideBar.background": "#151823",
+    "sideBar.foreground": "#8B9FD9",
     "sideBar.border": "#3deefc33",
     "sideBar.dropBackground": "#2a3c6880",
-    "sideBarSectionHeader.background": "#1d2944",
-    "sideBarSectionHeader.foreground": "#3deefc",
+    "sideBarSectionHeader.background": "#1d2133",
+    "sideBarSectionHeader.foreground": "#36F9F6",
     "sideBarSectionHeader.border": "#3deefc33",
-    "sideBarTitle.foreground": "#5f7ce2",
-    "statusBar.background": "#0d2a45",
+    "sideBarTitle.foreground": "#36F9F6",
+    "statusBar.background": "#151823",
     "statusBar.debuggingBackground": "#cc6633",
     "statusBar.debuggingForeground": "#ffffff",
-    "statusBar.foreground": "#9da5b4",
+    "statusBar.foreground": "#8B9FD9",
     "statusBar.noFolderBackground": "#21252b",
     "statusBarItem.hoverBackground": "#2c313a",
     "statusBarItem.remoteBackground": "#4d78cc",
@@ -139,8 +139,8 @@
     "terminal.foreground": "#abb2bf",
     "textLink.activeForeground": "#61afef",
     "textLink.foreground": "#528bff",
-    "titleBar.activeBackground": "#101728",
-    "titleBar.activeForeground": "#d7dae0",
+    "titleBar.activeBackground": "#151823",
+    "titleBar.activeForeground": "#8B9FD9",
     "titleBar.inactiveBackground": "#141b2c",
     "titleBar.inactiveForeground": "#8cc1ff",
     "titleBar.border": "#3deefc33",
@@ -403,12 +403,10 @@
         "variable.parameter.function.language.python",
         "variable.parameter.function.python",
         "meta.definition.variable variable.other",
-        "meta.definition.variable.name",
-        "variable.other.constant",
-        "variable.other.normal.shell"
+        "meta.definition.variable.name"
       ],
       "settings": {
-        "foreground": "#ff7a8f"
+        "foreground": "#66D9FF"
       }
     },
     {
@@ -1194,6 +1192,7 @@
         "variable.parameter",
         "variable.other.readwrite",
         "variable.other.php",
+        "punctuation.definition.variable.php",
         "variable.other.js",
         "variable.other.ts",
         "variable.other.python"
@@ -1216,14 +1215,7 @@
       }
     },
     {
-      "name": "Strings",
-      "scope": ["string", "string.quoted", "string.template"],
-      "settings": {
-        "foreground": "#FF66C4"
-      }
-    },
-    {
-      "name": "Keywords",
+      "name": "Keywords and Control",
       "scope": [
         "keyword",
         "keyword.control",
@@ -1231,8 +1223,15 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#36F9F6",
+        "foreground": "#FF47F7",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": ["string", "string.quoted", "string.template"],
+      "settings": {
+        "foreground": "#7eefa9"
       }
     },
     {
@@ -1245,60 +1244,6 @@
       ],
       "settings": {
         "foreground": "#00FF9D",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "Constants",
-      "scope": ["constant", "variable.other.constant", "support.constant"],
-      "settings": {
-        "foreground": "#FF5F5F",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "Operators",
-      "scope": [
-        "keyword.operator",
-        "keyword.operator.logical",
-        "keyword.operator.assignment",
-        "keyword.operator.comparison"
-      ],
-      "settings": {
-        "foreground": "#FF66C4",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "Function Calls",
-      "scope": [
-        "entity.name.function",
-        "meta.function-call",
-        "support.function",
-        "variable.function"
-      ],
-      "settings": {
-        "foreground": "#00FFDD",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "Control Flow Keywords",
-      "scope": [
-        "keyword.control",
-        "keyword.control.flow",
-        "keyword.control.conditional"
-      ],
-      "settings": {
-        "foreground": "#FF47F7",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "Storage and Types",
-      "scope": ["storage.type", "storage.modifier", "support.type.primitive"],
-      "settings": {
-        "foreground": "#36F9F6",
         "fontStyle": "bold"
       }
     },
@@ -1324,7 +1269,20 @@
         "support.type.property-name"
       ],
       "settings": {
-        "foreground": "#FF5F5F"
+        "foreground": "#FF66C4"
+      }
+    },
+    {
+      "name": "Operators",
+      "scope": [
+        "keyword.operator",
+        "keyword.operator.logical",
+        "keyword.operator.assignment",
+        "keyword.operator.comparison"
+      ],
+      "settings": {
+        "foreground": "#36F9F6",
+        "fontStyle": "bold"
       }
     }
   ],
