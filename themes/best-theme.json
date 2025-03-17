@@ -299,7 +299,7 @@
         "storage.type.class.phpdoc.php"
       ],
       "settings": {
-        "foreground": "#ff47f7",
+        "foreground": "#FF47F7",
         "fontStyle": "bold"
       }
     },
@@ -312,7 +312,7 @@
         "meta.phpdoc.type.php"
       ],
       "settings": {
-        "foreground": "#42e8b4",
+        "foreground": "#00FF9D",
         "fontStyle": "bold"
       }
     },
@@ -1253,6 +1253,52 @@
       "scope": ["constant", "variable.other.constant", "support.constant"],
       "settings": {
         "foreground": "#FF5F5F",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Operators",
+      "scope": [
+        "keyword.operator",
+        "keyword.operator.logical",
+        "keyword.operator.assignment",
+        "keyword.operator.comparison"
+      ],
+      "settings": {
+        "foreground": "#FF66C4",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Function Calls",
+      "scope": [
+        "entity.name.function",
+        "meta.function-call",
+        "support.function",
+        "variable.function"
+      ],
+      "settings": {
+        "foreground": "#00FFDD",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Control Flow Keywords",
+      "scope": [
+        "keyword.control",
+        "keyword.control.flow",
+        "keyword.control.conditional"
+      ],
+      "settings": {
+        "foreground": "#FF47F7",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Storage and Types",
+      "scope": ["storage.type", "storage.modifier", "support.type.primitive"],
+      "settings": {
+        "foreground": "#36F9F6",
         "fontStyle": "bold"
       }
     }
