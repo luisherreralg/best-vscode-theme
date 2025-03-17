@@ -1199,7 +1199,7 @@
         "variable.other.python"
       ],
       "settings": {
-        "foreground": "#FFB347"
+        "foreground": "#66D9FF"
       }
     },
     {
@@ -1301,51 +1301,64 @@
         "foreground": "#36F9F6",
         "fontStyle": "bold"
       }
+    },
+    {
+      "name": "Constants and Enums",
+      "scope": [
+        "constant",
+        "variable.other.constant",
+        "support.constant",
+        "variable.other.enummember"
+      ],
+      "settings": {
+        "foreground": "#FF5F5F",
+        "fontStyle": "bold"
+      }
     }
   ],
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "function": {
-      "foreground": "#3deefc",
+      "foreground": "#00FFDD",
       "bold": true
     },
     "method": {
-      "foreground": "#3deefc",
+      "foreground": "#00FFDD",
       "bold": true
     },
     "variable": {
-      "foreground": "#ff7a8f"
+      "foreground": "#66D9FF"
     },
     "variable.declaration": {
-      "foreground": "#ff7a8f"
+      "foreground": "#66D9FF"
     },
     "variable.defaultLibrary": {
-      "foreground": "#ff7a8f"
+      "foreground": "#66D9FF"
     },
     "parameter": {
-      "foreground": "#ff7a8f"
+      "foreground": "#66D9FF"
     },
     "class": {
-      "foreground": "#42e8b4",
+      "foreground": "#00FF9D",
       "bold": true
     },
     "type": {
-      "foreground": "#42e8b4",
+      "foreground": "#00FF9D",
       "bold": true
     },
     "interface": {
-      "foreground": "#42e8b4",
+      "foreground": "#00FF9D",
       "bold": true
     },
     "keyword": {
-      "foreground": "#ff47f7",
+      "foreground": "#FF47F7",
       "bold": true
     },
     "property": {
-      "foreground": "#f2c86d"
+      "foreground": "#FF66C4"
     },
     "constant": {
-      "foreground": "#ffad61",
+      "foreground": "#FF5F5F",
       "bold": true
     }
   }
